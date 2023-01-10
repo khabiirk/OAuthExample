@@ -1,7 +1,4 @@
-/**
- * @Author: Maximilian Schiedermeier
- * @Date: April 2019
- */
+
 package eu.kartoffelquadrat.timeservice;
 
 
@@ -13,10 +10,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 @SpringBootApplication
 public class TimeServiceLauncher {
-    public static void main(String[] args) {
+  /**
+   * Launches the Spring boot application.
+   *
+   *@param args argument
+   *
+   */
+  public static void main(String[] args) {
 
-        SpringApplication.run(TimeServiceLauncher.class, args);
+    SpringApplication.run(TimeServiceLauncher.class, args);
 
-    }
+  }
 }
 
